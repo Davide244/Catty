@@ -6,7 +6,7 @@
   "mixins": [
   ],
   "client": [
-    "eu.davide24.catty.mixin.CattyMixin"
+    "CattyMixin"
   ],
   "injectors": {
     "defaultRequire": 1
