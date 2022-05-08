@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "catty",
+  "version": "${version}",
+
+  "name": "Catty",
+  "description": "This mod adds several features related to cats to the game. I came up with these features at 3 AM while summoning Freddy Fazbear eating Among Us impostor's frontal lobe. That is why there are some weird ones.",
+  "authors": [
+    "Davide_24"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/Davide244/Catty"
+  },
+
+  "license": "AGPL-3.0",
+  "icon": "assets/catty/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "eu.davide24.catty.Catty"
+    ]
+  },
+  "mixins": [
+    "catty.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
