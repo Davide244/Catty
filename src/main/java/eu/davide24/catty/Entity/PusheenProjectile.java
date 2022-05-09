@@ -1,5 +1,6 @@
 package eu.davide24.catty.Entity;
 
+import eu.davide24.catty.init.EntityInit;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.projectile.thrown.ThrownItemEntity;
@@ -14,11 +15,11 @@ public class PusheenProjectile extends ThrownItemEntity {
         super(type, world);
     }
     public PusheenProjectile(World world, LivingEntity owner) {
-        super(null, owner, world); // null will be changed later
+        super(EntityInit.PUSHEEN_PROJECTILE, owner, world); // null will be changed later
     }
 
     public PusheenProjectile(World world, double x, double y, double z) {
-        super(null, x, y, z, world); // null will be changed later
+        super(EntityInit.PUSHEEN_PROJECTILE, x, y, z, world); // null will be changed later
     }
 
     @Override
