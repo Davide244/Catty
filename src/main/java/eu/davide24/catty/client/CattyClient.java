@@ -24,9 +24,8 @@ public class CattyClient implements ClientModInitializer {
     @Override
     @SuppressWarnings("deprecation")
     public void onInitializeClient() {
-        EntityRendererRegistry.INSTANCE.register(Catty.PUSHEEN_PROJECTILE, (context) ->
-                new FlyingItemEntityRenderer(context));
-        receiveEntityPacket();
+        EntityRendererRegistry.INSTANCE.register(Catty.PUSHEEN_PROJECTILE, FlyingItemEntityRenderer::new);
+        //receiveEntityPacket();
     }
 
     @SuppressWarnings("deprecation")

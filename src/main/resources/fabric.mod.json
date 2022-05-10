@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "eu.davide24.catty.Catty"
+    ],
+    "client": [
+      "eu.davide24.catty.client.CattyClient"
     ]
   },
   "mixins": [

@@ -31,10 +31,10 @@ public class PusheenProjectile extends ThrownItemEntity {
         return ItemInit.PUSHEEN.asItem();
     }
 
-    @Override
-    public Packet createSpawnPacket() {
-        return EntitySpawnPacket.create(this, CattyClient.PacketID);
-    }
+    //@Override
+    //public Packet createSpawnPacket() {
+    //    return EntitySpawnPacket.create(this, CattyClient.PacketID);
+    //}
 
     protected void onCollision(HitResult hitResult) { // called on collision with a block
         super.onCollision(hitResult);
