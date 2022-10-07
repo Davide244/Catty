@@ -1,6 +1,6 @@
 [![license: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-yellowgreen)](LICENSE)
 [![Mod Version: 0.1 (ALPHA)](https://img.shields.io/badge/Mod%20Version-0.1%20(ALPHA)-orange)](https://github.com/Davide244/Catty/releases)
-[![Development Status: Active](https://img.shields.io/badge/Development%20Status-active-green)](https://github.com/Davide244/Catty)
+[![Development Status: Inactive](https://img.shields.io/badge/Development%20Status-inactive-orange)](https://github.com/Davide244/Catty)
 [![Released: No](https://img.shields.io/badge/Released-No-red)](https://github.com/Davide244/Catty/releases)
 # Catty
 This mod adds several features related to cats to the game. I came up with these features at 3 AM while summoning Freddy Fazbear eating Among Us impostor's frontal lobe. That is why there are some weird ones.
